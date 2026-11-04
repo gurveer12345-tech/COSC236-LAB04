@@ -9,7 +9,7 @@ public class Library {
 
     // Stores the books and members belonging to the library
     private List<Book> catalog;
-    private List<Member> members;y
+    private List<Member> members;
     // Constructor initializes the library collections
     public Library() {
         catalog = new ArrayList<>();
