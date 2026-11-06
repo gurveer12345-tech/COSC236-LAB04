@@ -30,8 +30,7 @@ public class LibrarianController {
         }
 
         // Book and Member update their own state.
-        book.borrow();
-        member.borrowBook(book);
+       member.borrowBook(book);
 
         System.out.println(memberName + " successfully borrowed " + bookTitle);
     }
@@ -57,7 +56,6 @@ public class LibrarianController {
         }
 
         member.returnBook(book);
-        book.returnBook();
 
         System.out.println(memberName + " successfully returned " + bookTitle);
     }
