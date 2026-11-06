@@ -7,19 +7,19 @@ public class Member {
     // GRASP Principles: Information Expert and Low Coupling
 
     // Attributes
-    private int memberId;
+    private String memberId;
     private String name;
     private ArrayList<Book> borrowedBooks;
 
     // Constructor
-    public Member(int memberId, String name) {
+    public Member(String memberId, String name) {
         this.memberId = memberId;
         this.name = name;
         this.borrowedBooks = new ArrayList<>();
     }
 
     // Getters
-    public int getMemberId() {
+    public String getMemberId() {
         return memberId;
     }
 
